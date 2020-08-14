@@ -1,5 +1,5 @@
 
-##1. Installation
+## 1. Installation
 To install postgresql type the following command on terminal :
 
 If you use arch based distro :
@@ -87,14 +87,14 @@ To gain a broad knowledge about user management you are suggested to follow this
 ---
 
 
-##3. Connecting to a database
+## 3. Connecting to a database
 
 **To connect to a database use:** ``\c database_name``
 
 
 Here we connected to the ``mydb`` database by ``\c mydb``
 
-##4. Creating Tables
+## 4. Creating Tables
 
 **To see the tables/relations of a database use:** ``\d`` 
 
@@ -130,7 +130,7 @@ CREATE TABLE person(
 
  ![](images/persondatabase.png)
 
-##5. Inserting Data
+## 5. Inserting Data
 
 **To insert data into table use**:
 ```sql
@@ -143,7 +143,7 @@ INSERT INTO person(first_name,last_name, gender, date_of_birth, country_of_birth
 ```
  ![](images/insertinto.png)
 
-##6. Seeing the data
+## 6. Seeing the data
 To see the data from the table follow this format:
 ```sql
 SELECT field1, field2... fieldN FROM table_name WHERE condition
